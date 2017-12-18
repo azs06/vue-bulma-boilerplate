@@ -31,7 +31,7 @@ context: path.resolve(__dirname, '../'),
                     loader: "sass-loader"
                 }],
                 // use style-loader in development
-                fallback: "style-loader"
+                fallback: "vue-style-loader"
             })
         }
     ]
